@@ -1,0 +1,105 @@
+h1 {
+  color: pink;
+  font-size: 45px;
+}
+h1 {
+  font-family: "Brush Script MT", Brush Script Std, cursive
+}
+p {
+  color: lightpink;
+  font-size: 16px;
+}
+
+p{
+  font-family:"Cursive", Monaco, monospace
+}
+
+#size{
+  font-size:25px;
+}
+
+#cursive_font{
+  font-family: FreeMono, monospace
+}
+#salmon_section {
+  color:salmon;
+  font-size:16px;
+}
+#pink_section {
+  color:pink;
+}
+
+.li {
+    overflow: still;
+    position:left;
+    width:100%;
+    top:10;
+    z-index:6;
+    padding:5px;
+    line-height:50%;
+    text-align:center;
+    background-color: #ffc6c6;
+}
+
+
+.li a {
+    display:inline-block;
+    padding-bottom:5px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-style:normal;
+    position:relative;
+    margin:0 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.li a:hover {
+    background-color: #ffb5b5;
+}
+* {
+    box-sizing: border-box;
+}
+
+#zoom {
+    padding: 0px;
+    transition: transform .2s;
+    width: 335px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+
+#about {
+      position:absolute;
+      left:50%;
+      z-index:1;
+      top:220px;
+      padding:12px 12px 100px 12px;
+      width:452px;
+      margin-left:-238px;
+    }
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+#column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+#row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
